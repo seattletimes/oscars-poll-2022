@@ -1,0 +1,230 @@
+@import "seattletimes";
+
+@img-width: 150px;
+@img-width-margin: (@img-width + 5);
+@mobileTablet: ~"(max-width: 959px)";
+
+.data-source {
+  @media @mobile { display: block; }
+}
+
+.spacer {
+  padding-top: 3em;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 3em;
+}
+
+.art-credit.disclaimer { text-align: center; display: block; float: none; }
+.marketing.marketing--sidebar { margin: auto; }
+
+.jump {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 5px;
+  text-align: center;
+
+  .jumpBox {
+    font-family: "ff-dagny-web-pro", Helvetica Neue, Helvetica, sans-serif;
+    background-color: @df-blue;
+    color: white;
+    padding: 3px 5px;
+    display: inline-block;
+    margin: 2px 1px;
+  }
+}
+
+.numVotes {
+  display: inline-block;
+  float: right;
+  font-weight: normal;
+}
+
+.publish-date { padding: 0 5px 0 5px; margin: 10px auto 10px auto; text-align: center; }
+
+.graphic-hed {
+  font-size: 30px;
+
+  @media @mobileTablet {
+    padding: 0 5px 0 5px;
+  }
+}
+.graphic-chatter {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 5px 0 5px;
+}
+
+#nom-holder {
+  max-width: 960px;
+  margin: auto;
+
+  h2 {
+    border-bottom: 3px solid black;
+    font-family: "ff-dagny-web-pro", Helvetica Neue, Helvetica, sans-serif;
+    // padding: 0 10px;
+  }
+
+  .catGroup {
+    // margin-bottom: 5em;
+    clear: both;
+
+    .completeEntry {
+      clear: both;
+      width: 33%;
+      display: inline-block;
+      margin-bottom: 10px;
+      vertical-align: top;
+      // padding: 5px;
+      border: 1px solid #aaa;
+      background-color: white;
+      transition: all .2s ease-in-out;
+
+
+
+      @media @mobileTablet {
+        width: 49%;
+      }
+    }
+  }
+
+  .completeEntry.voted {
+    border: 3px solid @df-blue;
+  }
+}
+
+.entry {
+  font-family: sans-serif;
+  padding: 0px 10px 10px 10px;
+  position: relative;
+  height: 90px;
+
+  // For the Bar Charts
+  // background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #fdce77));
+  // background-image: linear-gradient(180deg, transparent 0%, #fdce77 0%);
+  // background-size: 0 100%;
+  // background-repeat: no-repeat;
+  // -webkit-transition: background-size 0.7s;
+  // transition: background-size 0.7s;
+  // -webkit-transition-delay: 0.25s;
+  // transition-delay: 0.25s;
+
+
+  .cardInfo {
+    position: absolute;
+    top: 25%;
+
+    @media @mobileTablet {
+      top: 22%;
+    }
+  }
+
+  .title {
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    // font-family: 'Bowlby One SC', cursive;
+    @media @mobileTablet {
+      font-size: 18px;
+      line-height: 1.2em;
+    }
+  }
+
+  .crit_pics {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: goldenrod;
+    display: none;
+    font-family: 'Bebas Neue', cursive;
+
+    @media @mobileTablet {
+      font-size: 14px;
+    }
+
+    i { margin-right: 5px; }
+  }
+}
+
+.title.justTitle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.completeEntry:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  z-index: 5;
+}
+
+// .voted { background-color: @df-blue; }
+
+.img {
+  // max-width: @img-width;
+  position: relative;
+  vertical-align: top;
+
+  // img { width: 100%; display: block; }
+
+  .knockout{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    &.darken { background: rgba(0, 0, 0, 0.4); }
+
+    .youVote {
+      text-transform: uppercase;
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      background-color: @df-blue;
+
+      @media @mobileTablet {
+        font-size: 14px;
+      }
+
+      i { margin-right: 5px; }
+    }
+
+    .perVotes {
+      font-size: 5em;
+      font-weight: bold;
+      line-height: 0.9em;
+      font-family: 'Bebas Neue', cursive;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+      // font-family: 'Bowlby One SC', cursive;
+
+      .percentSign {
+        font-size: 0.5em;
+        vertical-align: top;
+
+      }
+
+      @media @mobileTablet {
+        font-size: 3.5em;
+      }
+     }
+
+
+    &.voted {
+      color: @df-blue;
+    }
+
+  }
+}
+
+.inTitle {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-style: italic;
+}

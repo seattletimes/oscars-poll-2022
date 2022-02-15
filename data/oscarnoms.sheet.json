@@ -1,0 +1,603 @@
+[
+  {
+    "Category": "Best Picture",
+    "Title": "Belfast",
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "CODA",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "Don’t Look Up",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "Drive My Car",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "King Richard",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "Licorice Pizza",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "Nightmare Alley",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "The Power of the Dog",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Picture",
+    "Title": "West Side Story",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Director",
+    "Title": "Belfast",
+    "Actor": "Kenneth Branagh"
+  },
+  {
+    "Category": "Best Director",
+    "Title": "Drive My Car",
+    "Actor": "Ryusuke Hamaguchi"
+  },
+  {
+    "Category": "Best Director",
+    "Title": "Licorice Pizza",
+    "Actor": "Paul Thomas Anderson"
+  },
+  {
+    "Category": "Best Director",
+    "Title": "The Power of the Dog",
+    "Actor": "Jane Campion"
+  },
+  {
+    "Category": "Best Director",
+    "Title": "West Side Story"
+  },
+  {
+    "Category": "Best Actor",
+    "Title": "Being the Ricardos",
+    "Actor": "Javier Bardem"
+  },
+  {
+    "Category": "Best Actor",
+    "Title": "The Power of the Dog",
+    "Actor": "Benedict Cumberbatch"
+  },
+  {
+    "Category": "Best Actor",
+    "Title": "tick, tick…BOOM!",
+    "Actor": "Andrew Garfield"
+  },
+  {
+    "Category": "Best Actor",
+    "Title": "King Richard",
+    "Actor": "Will Smith"
+  },
+  {
+    "Category": "Best Actor",
+    "Title": "The Tragedy of Macbeth",
+    "Actor": "Denzel Washington"
+  },
+  {
+    "Category": "Best Actress",
+    "Title": "The Eyes of Tammy Faye",
+    "Actor": "Jessica Chastain"
+  },
+  {
+    "Category": "Best Actress",
+    "Title": "The Lost Daughter",
+    "Actor": "Olivia Colman"
+  },
+  {
+    "Category": "Best Actress",
+    "Title": "Parallel Mothers",
+    "Actor": "Penélope Cruz"
+  },
+  {
+    "Category": "Best Actress",
+    "Title": "Being the Ricardos",
+    "Actor": "Nicole Kidman"
+  },
+  {
+    "Category": "Best Actress",
+    "Title": "Spencer",
+    "Actor": "Kristen Stewart"
+  },
+  {
+    "Category": "Best Supporting Actor",
+    "Title": "Belfast",
+    "Actor": "Ciarán Hinds"
+  },
+  {
+    "Category": "Best Supporting Actor",
+    "Title": "CODA",
+    "Actor": "Troy Kotsur"
+  },
+  {
+    "Category": "Best Supporting Actor",
+    "Title": "The Power of the Dog",
+    "Actor": "Jesse Plemons"
+  },
+  {
+    "Category": "Best Supporting Actor",
+    "Title": "Being the Ricardos",
+    "Actor": "J.K. Simmons"
+  },
+  {
+    "Category": "Best Supporting Actor",
+    "Title": "The Power of the Dog",
+    "Actor": "Kodi Smit-McPhee"
+  },
+  {
+    "Category": "Best Supporting Actress",
+    "Title": "The Lost Daughter",
+    "Actor": "Jessie Buckley"
+  },
+  {
+    "Category": "Best Supporting Actress",
+    "Title": "West Side Story",
+    "Actor": "Ariana DeBose"
+  },
+  {
+    "Category": "Best Supporting Actress",
+    "Title": "Belfast",
+    "Actor": "Judi Dench"
+  },
+  {
+    "Category": "Best Supporting Actress",
+    "Title": "The Power of the Dog",
+    "Actor": "Kirsten Dunst"
+  },
+  {
+    "Category": "Best Supporting Actress",
+    "Title": "King Richard",
+    "Actor": "Aunjanue Ellis"
+  },
+  {
+    "Category": "Best Animated Picture",
+    "Title": "Encanto",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Picture",
+    "Title": "Flee",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Picture",
+    "Title": "Luca",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Picture",
+    "Title": "The Mitchells vs. the Machines",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Picture",
+    "Title": "Raya and the Last Dragon",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Cinematography",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Cinematography",
+    "Title": "Nightmare Alley",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Cinematography",
+    "Title": "The Power of the Dog",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Cinematography",
+    "Title": "The Tragedy of Macbeth",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Cinematography",
+    "Title": "West Side Story",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Costume Design",
+    "Title": "Cruella",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Costume Design",
+    "Title": "Cyrano",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Costume Design",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Costume Design",
+    "Title": "Nightmare Alley",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Costume Design",
+    "Title": "West Side Story",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary",
+    "Title": "Ascension",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary",
+    "Title": "Attica",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary",
+    "Title": "Flee",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary",
+    "Title": "Summer of Soul (…Or, When the Revolution Could Not Be Televised)",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary",
+    "Title": "Writing with Fire",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary Short",
+    "Title": "Audible",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary Short",
+    "Title": "Lead Me Home",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary Short",
+    "Title": "The Queen of Basketball",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary Short",
+    "Title": "Three Songs for Benazir",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Documentary Short",
+    "Title": "When We Were Bullies",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Film Editing",
+    "Title": "Don’t Look Up",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Film Editing",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Film Editing",
+    "Title": "King Richard",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Film Editing",
+    "Title": "The Power of the Dog",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Film Editing",
+    "Title": "tick, tick…BOOM!",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best International Picture",
+    "Title": "Drive My Car",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best International Picture",
+    "Title": "Flee",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best International Picture",
+    "Title": "The Hand of God",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best International Picture",
+    "Title": "Lunana: A Yak in the Classroom",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best International Picture",
+    "Title": "The Worst Person in the World",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Hair & Makeup",
+    "Title": "Coming 2 America",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Hair & Makeup",
+    "Title": "Cruella",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Hair & Makeup",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Hair & Makeup",
+    "Title": "The Eyes of Tammy Faye",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Hair & Makeup",
+    "Title": "House of Gucci",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Score",
+    "Title": "Don’t Look Up",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Score",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Score",
+    "Title": "Encanto",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Score",
+    "Title": "Parallel Mothers",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Score",
+    "Title": "The Power of the Dog",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Song",
+    "Title": "King Richard",
+    "Actor": "“Be Alive”"
+  },
+  {
+    "Category": "Best Original Song",
+    "Title": "Encanto",
+    "Actor": "“Dos Oruguitas”"
+  },
+  {
+    "Category": "Best Original Song",
+    "Title": "Belfast",
+    "Actor": "“Down To Joy”"
+  },
+  {
+    "Category": "Best Original Song",
+    "Title": "No Time to Die",
+    "Actor": "“No Time To Die”"
+  },
+  {
+    "Category": "Best Original Song",
+    "Title": "Four Good Days",
+    "Actor": "“Somehow You Do”"
+  },
+  {
+    "Category": "Best Production Design",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Production Design",
+    "Title": "Nightmare Alley",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Production Design",
+    "Title": "The Power of the Dog",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Production Design",
+    "Title": "The Tragedy of Macbeth",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Production Design",
+    "Title": "West Side Story",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Short",
+    "Title": "Affairs of the Art",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Short",
+    "Title": "Bestia",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Short",
+    "Title": "Boxballet",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Short",
+    "Title": "Robin Robin",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Animated Short",
+    "Title": "The Windshield Wiper",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Live Action Short",
+    "Title": "Ala Kachuu - Take and Run",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Live Action Short",
+    "Title": "The Dress",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Live Action Short",
+    "Title": "The Long Goodbye",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Live Action Short",
+    "Title": "On My Mind",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Live Action Short",
+    "Title": "Please Hold",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Sound",
+    "Title": "Belfast",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Sound",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Sound",
+    "Title": "No Time to Die",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Sound",
+    "Title": "The Power of the Dog",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Sound",
+    "Title": "West Side Story",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Visual Effects",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Visual Effects",
+    "Title": "Free Guy",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Visual Effects",
+    "Title": "No Time to Die",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Visual Effects",
+    "Title": "Shang-Chi and the Legend of the Ten Rings",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Visual Effects",
+    "Title": "Spider-Man: No Way Home",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Adapted Screenplay",
+    "Title": "CODA",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Adapted Screenplay",
+    "Title": "Drive My Car",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Adapted Screenplay",
+    "Title": "Dune",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Adapted Screenplay",
+    "Title": "The Lost Daughter",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Adapted Screenplay",
+    "Title": "The Power of the Dog",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Screenplay",
+    "Title": "Belfast",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Screenplay",
+    "Title": "Don’t Look Up",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Screenplay",
+    "Title": "King Richard",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Screenplay",
+    "Title": "Licorice Pizza",
+    "Actor": "Cast"
+  },
+  {
+    "Category": "Best Original Screenplay",
+    "Title": "The Worst Person in the World",
+    "Actor": "Cast"
+  }
+]
