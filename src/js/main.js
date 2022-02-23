@@ -1,5 +1,8 @@
 require("component-responsive-frame/child");
 var $ = require('jquery');
+var Isotope = require('isotope-layout');
+var jQueryBridget = require('jquery-bridget');
+jQueryBridget( 'isotope', Isotope, $ );
 var scriptURL = 'https://script.google.com/macros/s/AKfycby8ulrtzEgQRS4iW-ka5E-epv7U5BxTX2gzvOASZ_eXFkJnGkykSSYZ8SvwSh02ijLa/exec';
 
 var votes = require("../../data/predictions.sheet.json");
@@ -60,8 +63,8 @@ function submitHandler(e, entry){
 }
 
 
-$( ".completeEntry" ).click(function(a) {
-  var thisEntry = $(this).find('.entry');
+$( ".entry" ).click(function(a) {
+  var thisEntry = $(this);
   submitHandler(a, thisEntry);
   highlightChosenFadeOthers(thisEntry);
 });
@@ -88,19 +91,45 @@ $.each(votes, function(index, element) {
 
 function highlightChosenFadeOthers( chosenEntry ){
   // $( chosenEntry ).closest('.catGroup').find('.img img').css("opacity","0.4");
-  $( chosenEntry ).closest('.catGroup').find('.knockout').addClass('darken');
-  $( chosenEntry ).closest('.catGroup').find(".completeEntry").css("pointer-events","none");
+  $( chosenEntry ).closest('.catGroup').find('.entry').addClass('darken');
+  $( chosenEntry ).closest('.catGroup').find(".entry").css("pointer-events","none");
   $( chosenEntry ).closest('.catGroup').find(".crit_pics").show();
   // $( chosenEntry ).closest('.completeEntry').addClass('voted').find('.img img').css('opacity','1');
-  $( chosenEntry ).closest('.completeEntry').addClass('voted').find('.knockout').addClass('voted');
-  $( chosenEntry ).closest('.completeEntry').addClass('voted').find('.knockout').append('<div class="youVote"><i class="fa fa-star" aria-hidden="true"></i>Your Vote</div>');
+  $( chosenEntry ).addClass('voted').find('.knockout').addClass('voted');
+  $( chosenEntry ).addClass('voted').append('<div class="youVote"><i class="fa fa-star" aria-hidden="true"></i>Your Vote</div>');
 }
+
+// var $grid = $('#card-holder').isotope({
+//   itemSelector: '.card',
+//   layoutMode: 'fitRows',
+//   getSortData: {
+//     name: '.last',
+//     age: '[data-age]',
+//     tenure: '.bar parseInt',
+//     gender: '[data-gender]'
+//   }
+// });
+
+var $grid;
+
+// $( ".catGroup" ).each(function( index ) {
+//    $grid = $( this ).isotope({
+//     itemSelector: '.entry',
+//     layoutMode: 'vertical',
+//     getSortData: {
+//       trythis: '.perVotes parseInt',
+//     }
+//   });
+//
+//   // console.log( index + ": " + $( this ).text() );
+// });
 
 
 function showVoteTallies(selectedCategory, chosenMovie) {
   var catTotal = catObj[selectedCategory];
 
   catTotal = (catTotal === undefined) ? 1 : catTotal;
+  console.log(catTotal);
 
   if (catTotal === 1) {
     console.log(obj);
@@ -110,7 +139,7 @@ function showVoteTallies(selectedCategory, chosenMovie) {
 
   }
 
-  $('#nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).prev('.pollHeads').find('.numVotes').append(`${catTotal} votes`);
+  $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).prev('.pollHeads').find('.numVotes').append(`${catTotal} votes`);
 
   for(var propertyName in obj) {
     if( propertyName.includes(selectedCategory) ){
@@ -122,9 +151,26 @@ function showVoteTallies(selectedCategory, chosenMovie) {
 
       // I work for the bar chart lines.
       // $('#nom-holder').find(`*[data-id="${ propertyName }"]`).css("background-size",`${percentage}% 100%`);
-      $('#nom-holder').find(`*[data-id="${ propertyName }"]`).closest('.completeEntry').find('.perVotes').empty().append(`${perVotes}<span class="percentSign">%</span>`);
+
+      $('.nom-holder').find(`*[data-id="${ propertyName }"]`).find('.perVotes').empty().append(`${perVotes}`);
+
+      // <span class="percentSign">%</span>
     }
   }
+
+     $grid = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).isotope({
+      itemSelector: '.entry',
+      layoutMode: 'vertical',
+      getSortData: {
+        trythis: '.perVotes parseInt',
+      }
+    });
+
+  $grid.isotope({ sortBy: 'trythis', sortAscending : false });
+
+  // setTimeout(() => {  }, 1000);
+
+
 }
 
 // if (getCookie("OscVotesActor")) {

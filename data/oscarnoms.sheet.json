@@ -59,7 +59,9 @@
   {
     "Category": "Best Director",
     "Title": "Drive My Car",
-    "Actor": "Ryusuke Hamaguchi"
+    "Actor": "Ryusuke Hamaguchi",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Director",
@@ -73,7 +75,8 @@
   },
   {
     "Category": "Best Director",
-    "Title": "West Side Story"
+    "Title": "West Side Story",
+    "Actor": "I NEED A DIRECTOR"
   },
   {
     "Category": "Best Actor",
@@ -98,7 +101,9 @@
   {
     "Category": "Best Actor",
     "Title": "The Tragedy of Macbeth",
-    "Actor": "Denzel Washington"
+    "Actor": "Denzel Washington",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Actress",
@@ -113,7 +118,9 @@
   {
     "Category": "Best Actress",
     "Title": "Parallel Mothers",
-    "Actor": "Penélope Cruz"
+    "Actor": "Penélope Cruz",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Actress",
@@ -128,7 +135,9 @@
   {
     "Category": "Best Supporting Actor",
     "Title": "Belfast",
-    "Actor": "Ciarán Hinds"
+    "Actor": "Ciarán Hinds",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Supporting Actor",
@@ -153,7 +162,9 @@
   {
     "Category": "Best Supporting Actress",
     "Title": "The Lost Daughter",
-    "Actor": "Jessie Buckley"
+    "Actor": "Jessie Buckley",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Supporting Actress",
@@ -183,7 +194,9 @@
   {
     "Category": "Best Animated Picture",
     "Title": "Flee",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Animated Picture",
@@ -203,7 +216,9 @@
   {
     "Category": "Best Cinematography",
     "Title": "Dune",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Cinematography",
@@ -228,7 +243,9 @@
   {
     "Category": "Best Costume Design",
     "Title": "Cruella",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Costume Design",
@@ -258,7 +275,9 @@
   {
     "Category": "Best Documentary",
     "Title": "Attica",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Documentary",
@@ -283,7 +302,9 @@
   {
     "Category": "Best Documentary Short",
     "Title": "Lead Me Home",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Documentary Short",
@@ -308,7 +329,9 @@
   {
     "Category": "Best Film Editing",
     "Title": "Dune",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Film Editing",
@@ -333,7 +356,9 @@
   {
     "Category": "Best International Picture",
     "Title": "Flee",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best International Picture",
@@ -363,7 +388,9 @@
   {
     "Category": "Best Hair & Makeup",
     "Title": "Dune",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Hair & Makeup",
@@ -383,7 +410,9 @@
   {
     "Category": "Best Original Score",
     "Title": "Dune",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Score",
@@ -408,7 +437,9 @@
   {
     "Category": "Best Original Song",
     "Title": "Encanto",
-    "Actor": "“Dos Oruguitas”"
+    "Actor": "“Dos Oruguitas”",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Song",
@@ -433,7 +464,9 @@
   {
     "Category": "Best Production Design",
     "Title": "Nightmare Alley",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Production Design",
@@ -453,7 +486,9 @@
   {
     "Category": "Best Animated Short",
     "Title": "Affairs of the Art",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Animated Short",
@@ -483,7 +518,9 @@
   {
     "Category": "Best Live Action Short",
     "Title": "The Dress",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Live Action Short",
@@ -508,7 +545,9 @@
   {
     "Category": "Best Sound",
     "Title": "Dune",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Sound",
@@ -528,7 +567,9 @@
   {
     "Category": "Best Visual Effects",
     "Title": "Dune",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Visual Effects",
@@ -553,7 +594,9 @@
   {
     "Category": "Best Adapted Screenplay",
     "Title": "CODA",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Adapted Screenplay",
@@ -588,7 +631,9 @@
   {
     "Category": "Best Original Screenplay",
     "Title": "King Richard",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Screenplay",
