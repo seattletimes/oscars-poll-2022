@@ -2,9 +2,7 @@
   {
     "Category": "Best Picture",
     "Title": "Belfast",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Picture",
@@ -44,7 +42,9 @@
   {
     "Category": "Best Picture",
     "Title": "The Power of the Dog",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Picture",
@@ -59,9 +59,7 @@
   {
     "Category": "Best Director",
     "Title": "Drive My Car",
-    "Actor": "Ryusuke Hamaguchi",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Ryusuke Hamaguchi"
   },
   {
     "Category": "Best Director",
@@ -71,12 +69,14 @@
   {
     "Category": "Best Director",
     "Title": "The Power of the Dog",
-    "Actor": "Jane Campion"
+    "Actor": "Jane Campion",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Director",
     "Title": "West Side Story",
-    "Actor": "I NEED A DIRECTOR"
+    "Actor": "Steven Spielberg"
   },
   {
     "Category": "Best Actor",
@@ -96,14 +96,14 @@
   {
     "Category": "Best Actor",
     "Title": "King Richard",
-    "Actor": "Will Smith"
+    "Actor": "Will Smith",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Actor",
     "Title": "The Tragedy of Macbeth",
-    "Actor": "Denzel Washington",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Denzel Washington"
   },
   {
     "Category": "Best Actress",
@@ -135,14 +135,14 @@
   {
     "Category": "Best Supporting Actor",
     "Title": "Belfast",
-    "Actor": "Ciarán Hinds",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Ciarán Hinds"
   },
   {
     "Category": "Best Supporting Actor",
     "Title": "CODA",
-    "Actor": "Troy Kotsur"
+    "Actor": "Troy Kotsur",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Supporting Actor",
@@ -162,14 +162,14 @@
   {
     "Category": "Best Supporting Actress",
     "Title": "The Lost Daughter",
-    "Actor": "Jessie Buckley",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Jessie Buckley"
   },
   {
     "Category": "Best Supporting Actress",
     "Title": "West Side Story",
-    "Actor": "Ariana DeBose"
+    "Actor": "Ariana DeBose",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Supporting Actress",
@@ -189,14 +189,14 @@
   {
     "Category": "Best Animated Picture",
     "Title": "Encanto",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Animated Picture",
     "Title": "Flee",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Animated Picture",
@@ -216,9 +216,7 @@
   {
     "Category": "Best Cinematography",
     "Title": "Dune",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Cinematography",
@@ -228,7 +226,9 @@
   {
     "Category": "Best Cinematography",
     "Title": "The Power of the Dog",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Cinematography",
@@ -275,9 +275,7 @@
   {
     "Category": "Best Documentary",
     "Title": "Attica",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Documentary",
@@ -287,7 +285,9 @@
   {
     "Category": "Best Documentary",
     "Title": "Summer of Soul (…Or, When the Revolution Could Not Be Televised)",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Documentary",
@@ -302,14 +302,14 @@
   {
     "Category": "Best Documentary Short",
     "Title": "Lead Me Home",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Documentary Short",
     "Title": "The Queen of Basketball",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Documentary Short",
@@ -329,9 +329,7 @@
   {
     "Category": "Best Film Editing",
     "Title": "Dune",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Film Editing",
@@ -341,7 +339,9 @@
   {
     "Category": "Best Film Editing",
     "Title": "The Power of the Dog",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Film Editing",
@@ -351,14 +351,14 @@
   {
     "Category": "Best International Picture",
     "Title": "Drive My Car",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best International Picture",
     "Title": "Flee",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best International Picture",
@@ -383,14 +383,14 @@
   {
     "Category": "Best Hair & Makeup",
     "Title": "Cruella",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Hair & Makeup",
     "Title": "Dune",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Hair & Makeup",
@@ -410,9 +410,7 @@
   {
     "Category": "Best Original Score",
     "Title": "Dune",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Original Score",
@@ -427,7 +425,9 @@
   {
     "Category": "Best Original Score",
     "Title": "The Power of the Dog",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Song",
@@ -437,9 +437,7 @@
   {
     "Category": "Best Original Song",
     "Title": "Encanto",
-    "Actor": "“Dos Oruguitas”",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "“Dos Oruguitas”"
   },
   {
     "Category": "Best Original Song",
@@ -449,7 +447,9 @@
   {
     "Category": "Best Original Song",
     "Title": "No Time to Die",
-    "Actor": "“No Time To Die”"
+    "Actor": "“No Time To Die”",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Song",
@@ -464,9 +464,7 @@
   {
     "Category": "Best Production Design",
     "Title": "Nightmare Alley",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Production Design",
@@ -481,14 +479,14 @@
   {
     "Category": "Best Production Design",
     "Title": "West Side Story",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Animated Short",
     "Title": "Affairs of the Art",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Animated Short",
@@ -503,7 +501,9 @@
   {
     "Category": "Best Animated Short",
     "Title": "Robin Robin",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Animated Short",
@@ -545,9 +545,7 @@
   {
     "Category": "Best Sound",
     "Title": "Dune",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Sound",
@@ -562,7 +560,9 @@
   {
     "Category": "Best Sound",
     "Title": "West Side Story",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Visual Effects",
@@ -594,9 +594,7 @@
   {
     "Category": "Best Adapted Screenplay",
     "Title": "CODA",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Adapted Screenplay",
@@ -616,12 +614,16 @@
   {
     "Category": "Best Adapted Screenplay",
     "Title": "The Power of the Dog",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Screenplay",
     "Title": "Belfast",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Screenplay",
@@ -631,9 +633,7 @@
   {
     "Category": "Best Original Screenplay",
     "Title": "King Richard",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Original Screenplay",

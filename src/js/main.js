@@ -12,6 +12,17 @@ var obj = {};
 var catObj = {};
 var savedPicks = [];
 
+var $grid = $('.nom-holder').find(`*[data-head-category="Best Actress"]`).isotope({
+ itemSelector: '.entry',
+ layoutMode: 'vertical',
+ // initLayout: false,
+ resizeContainer: true,
+ // resize: false,
+ getSortData: {
+   trythis: '.perVotes parseInt',
+ }
+});
+
 
 
 function getCookie(name) {
@@ -21,6 +32,7 @@ function getCookie(name) {
 }
 
 function submitHandler(e, entry){
+    e.preventDefault();
     var title = $( entry ).attr( "data-title" );
     var category = $( entry ).attr( "data-category" );
     var actor = $( entry ).attr( "data-actor" );
@@ -64,6 +76,7 @@ function submitHandler(e, entry){
 
 
 $( ".entry" ).click(function(a) {
+  a.preventDefault();
   var thisEntry = $(this);
   submitHandler(a, thisEntry);
   highlightChosenFadeOthers(thisEntry);
@@ -110,7 +123,7 @@ function highlightChosenFadeOthers( chosenEntry ){
 //   }
 // });
 
-var $grid;
+
 
 // $( ".catGroup" ).each(function( index ) {
 //    $grid = $( this ).isotope({
@@ -158,15 +171,24 @@ function showVoteTallies(selectedCategory, chosenMovie) {
     }
   }
 
-     $grid = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).isotope({
-      itemSelector: '.entry',
-      layoutMode: 'vertical',
-      getSortData: {
-        trythis: '.perVotes parseInt',
-      }
-    });
+  $grid.isotope( 'reloadItems' ).isotope( { sortBy: 'trythis', sortAscending : false } );
 
-  $grid.isotope({ sortBy: 'trythis', sortAscending : false });
+    //  $grid = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).isotope({
+    //   itemSelector: '.entry',
+    //   layoutMode: 'vertical',
+    //   // initLayout: false,
+    //   resizeContainer: true,
+    //   // resize: false,
+    //   getSortData: {
+    //     trythis: '.perVotes parseInt',
+    //   }
+    // });
+
+    // $grid.isotope({ sortBy : 'trythis' });
+
+    // $grid.isotope({ sortBy: 'trythis', sortAscending : false });
+
+  // $grid.isotope({ sortBy: 'trythis', sortAscending : false });
 
   // setTimeout(() => {  }, 1000);
 
