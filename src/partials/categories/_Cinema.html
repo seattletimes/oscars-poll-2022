@@ -1,0 +1,21 @@
+<h2 class="pollHeads">Best Cinematography Nominees <span class="numVotes"></span></h2>
+<div class="catGroup" id="bestCinematography" data-head-category="Best Cinematography">
+<% json.oscarnoms.forEach(function(item, i) { %>
+  <% if(item.Category == "Best Cinematography") { %>
+  <div class="entry" data-id="<%= item.Title %><%= item.Category %><%= item.Actor %>" data-title="<%= item.Title %>" data-category="<%= item.Category %>" data-actor="<%= item.Actor %>">
+    <% if(item.crit_pics) { %>
+      <div class="crit_pics">
+        <div class="center"><i class="fas fa-film"></i>Critic's Prediction</div>
+      </div>
+    <% } %>
+
+    <div class="cardInfo">
+      <div class="title" data-item-title="<%= item.Title %>"><%= item.Actor %></div>
+      <div class="inTitle"><%= item.Title %></div>
+
+      <div class="knockout"><div class="perVotes"></div><span class="percentSign">%</span></div>
+    </div>
+  </div>
+  <% } %>
+<% }) %>
+</div>

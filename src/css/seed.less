@@ -4,6 +4,47 @@
 @img-width-margin: (@img-width + 5);
 @mobileTablet: ~"(max-width: 959px)";
 
+.marketing--sidebar {
+  max-width: 100%;
+  font-size: 0px;
+
+  .image {
+    width: 33%;
+    max-width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    @media @mobile {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  .review-text {
+    display: inline-block;
+    width: 66%;
+    vertical-align: middle;
+    padding: 10px;
+    @media @mobile {
+      width: 100%;
+      margin: auto;
+    }
+  }
+}
+
+.review {
+
+  .label {
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .head {
+    font-family: @df-serif;
+  }
+  button {
+    display: block;
+    margin: auto;
+  }
+}
+
 .data-source {
   @media @mobile { display: block; }
 }
@@ -12,6 +53,11 @@
   padding-top: 3em;
   border-bottom: 1px solid #ededed;
   margin-bottom: 3em;
+
+  @media @mobileTablet {
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
 }
 
 
@@ -60,6 +106,9 @@
     border-bottom: 3px solid black;
     font-family: "ff-dagny-web-pro", Helvetica Neue, Helvetica, sans-serif;
     // padding: 0 10px;
+    @media @mobileTablet {
+      margin-bottom: 5px;
+    }
   }
 
   .catGroup {
@@ -77,27 +126,32 @@
       // padding: 5px;
       border: 1px solid #aaa;
       background-color: white;
-      // transition: all .3s ease-in-out;
-      &.darken { background-color: rgba(0, 0, 0, 0.4); }
+      transition: background-color .3s ease-in-out;
+      &.darken { background-color: rgba(0, 0, 0, 0.2); opacity: 0.9; }
       // transition: background 0.4s, box-shadow 0.4s;
 
-
-
       @media @mobileTablet {
-        width: 49%;
+        margin-bottom: 5px;
       }
+
+
+
+      // @media @mobileTablet {
+      //   width: 49%;
+      // }
     }
   }
 
-  .entry.voted {
-    border: 3px solid @df-blue;
-  }
+  // .entry.voted {
+  //   border: 3px solid @df-blue;
+  // }
 }
 
 .entry {
   font-family: sans-serif;
   padding: 10px;
   position: relative;
+  overflow: hidden;
   // height: 90px;
 
   // For the Bar Charts
@@ -124,7 +178,8 @@
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    line-height: 1.2em;
     // font-family: 'Bowlby One SC', cursive;
     @media @mobileTablet {
       font-size: 18px;
@@ -132,20 +187,50 @@
     }
   }
 
+  .inTitle {
+    font-style: italic;
+    line-height: 0.9em;
+  }
+
   .crit_pics {
     text-transform: uppercase;
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: bold;
-    color: goldenrod;
+    color: white;
+    background-color: goldenrod;
     display: none;
     font-family: 'Bebas Neue', cursive;
-    width: 200px;
+    width: 100px;
+    height: 100%;
     text-align: center;
     letter-spacing: 1px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0%;
+    right: 190px;
+    // transform: translateY(-50%);
+
+    .center {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+
+    // content: "";
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // right: 0;
+    // width: 50%;
+    // background: goldenrod;
+    // transform: skew(-30deg);
+    // transform-origin: top;
+    // z-index: -1;
+
 
     @media @mobileTablet {
       font-size: 14px;
@@ -176,12 +261,34 @@
   color: white;
   font-family: 'Bebas Neue', cursive;
   background-color: @df-blue;
-  width: 90px;
+  width: 100px;
+  height: 100%;
   text-align: center;
   letter-spacing: 1px;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0%;
+  right: 85px;
+  // transform: translateY(-50%);
+
+  .center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  // content: "";
+  // position: absolute;
+  // top: 0;
+  // bottom: 0;
+  // left: 0;
+  // width: 50%;
+  // background: @df-blue;
+  // transform: skew(-30deg);
+  // transform-origin: top;
+  // z-index: -1;
 
   @media @mobileTablet {
     font-size: 14px;
@@ -192,11 +299,12 @@
 
   .knockout{
     position: absolute;
+    top: 50%;
     right: 10px;
-    top: 10px;
+    transform: translateY(-50%);
 
     .perVotes {
-      font-size: 2em;
+      font-size: 2.5em;
       font-weight: bold;
       line-height: 0.9em;
       font-family: 'Bebas Neue', cursive;
@@ -212,12 +320,16 @@
      .percentSign {
        font-size: 0.5em;
        vertical-align: top;
+       opacity: 0;
+       &.show {
+         opacity: 1;
+       }
 
      }
 
 
-    &.voted {
-      color: @df-blue;
-    }
+    // &.voted {
+    //   color: @df-blue;
+    // }
 
   }

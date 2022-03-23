@@ -10,6 +10,7 @@
     <% if (json.project.production && !json.project.embedded) { %>
       <%= t.include("partials/_gtm.html") %>
     <% } %>
+    <script src="https://kit.fontawesome.com/9d53be7224.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Bowlby+One+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -19,10 +20,32 @@
     <% } %>
     <responsive-child>
       <div class="nom-holder">
+      <h3 class="graphic-hed">Who do you think will win?</h3>
 
-      <%= t.include("partials/_Actor.html") %>
+      <%= t.include("partials/categories/_Picture.html") %>
+
       <div class="spacer"></div>
-      <%= t.include("partials/_Actress.html") %>
+
+      <%= t.include("partials/categories/_Director.html") %>
+
+      <div class="spacer"></div>
+
+      <%= t.include("partials/categories/_Actor.html") %>
+
+      <section class="marketing marketing--sidebar">
+        <div class="image">
+          <img src="./assets/reviews/small/PowerOfTheDog.jpg"/>
+        </div>
+        <div class="review-text">
+        	<h3 class="marketing__text marketing__hed">Seattle Times Review: The Power of the Dog</h3>
+        	<p class="marketing__text marketing__body">"You have no idea where this story is going, but you’ll follow Campion’s vision anywhere."</p>
+        	<a class="marketing__button" href="https://www.seattletimes.com/entertainment/movies/the-power-of-the-dog-review-the-wait-is-over-jane-campions-western-thriller-arrives/">Read the full review</a>
+        </div>
+      </section>
+
+
+      <div class="spacer"></div>
+      <%= t.include("partials/categories/_Actress.html") %>
 
       </div>
 

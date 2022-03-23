@@ -1,0 +1,23 @@
+<h2 class="pollHeads">Best Actress Nominees <span class="numVotes"></span></h2>
+<div class="catGroup" id="bestActress" data-head-category="Best Actress">
+<% json.oscarnoms.forEach(function(item, i) { %>
+  <% if(item.Category == "Best Actress") { %>
+  <div class="entry" data-id="<%= item.Title %><%= item.Category %><%= item.Actor %>" data-title="<%= item.Title %>" data-category="<%= item.Category %>" data-actor="<%= item.Actor %>">
+    <% if(item.crit_pics) { %>
+      <div class="crit_pics">
+        <div class="center">
+          <i class="fa fa-star" aria-hidden="true"></i>Critic's Prediction
+        </div>
+      </div>
+    <% } %>
+
+    <div class="cardInfo">
+      <div class="title" data-item-title="<%= item.Title %>"><%= item.Actor %></div>
+      <div class="inTitle"><%= item.Title %></div>
+
+      <div class="knockout"><div class="perVotes"></div><span class="percentSign">%</span></div>
+    </div>
+  </div>
+  <% } %>
+<% }) %>
+</div>

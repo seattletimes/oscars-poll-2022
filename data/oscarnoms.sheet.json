@@ -7,7 +7,9 @@
   {
     "Category": "Best Picture",
     "Title": "CODA",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Picture",
@@ -42,9 +44,7 @@
   {
     "Category": "Best Picture",
     "Title": "The Power of the Dog",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Picture",
@@ -108,7 +108,9 @@
   {
     "Category": "Best Actress",
     "Title": "The Eyes of Tammy Faye",
-    "Actor": "Jessica Chastain"
+    "Actor": "Jessica Chastain",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Actress",
@@ -118,9 +120,7 @@
   {
     "Category": "Best Actress",
     "Title": "Parallel Mothers",
-    "Actor": "Penélope Cruz",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Penélope Cruz"
   },
   {
     "Category": "Best Actress",
@@ -280,14 +280,14 @@
   {
     "Category": "Best Documentary",
     "Title": "Flee",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Documentary",
     "Title": "Summer of Soul (…Or, When the Revolution Could Not Be Televised)",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Documentary",
@@ -437,7 +437,9 @@
   {
     "Category": "Best Original Song",
     "Title": "Encanto",
-    "Actor": "“Dos Oruguitas”"
+    "Actor": "“Dos Oruguitas”",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Original Song",
@@ -447,9 +449,7 @@
   {
     "Category": "Best Original Song",
     "Title": "No Time to Die",
-    "Actor": "“No Time To Die”",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "“No Time To Die”"
   },
   {
     "Category": "Best Original Song",

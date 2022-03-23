@@ -1,11 +1,12 @@
-<h3 class="graphic-hed">Who do you think will win?</h3>
-<h2 class="pollHeads">Best Actor Nominees <span class="numVotes"></span></h2>
-<div class="catGroup" id="bestActor" data-head-category="Best Actor">
+<h2 class="pollHeads">Best Documentary Short Nominees <span class="numVotes"></span></h2>
+<div class="catGroup" id="bestDocShort" data-head-category="Best Documentary Short">
 <% json.oscarnoms.forEach(function(item, i) { %>
-  <% if(item.Category == "Best Actor") { %>
+  <% if(item.Category == "Best Documentary Short") { %>
   <div class="entry" data-id="<%= item.Title %><%= item.Category %><%= item.Actor %>" data-title="<%= item.Title %>" data-category="<%= item.Category %>" data-actor="<%= item.Actor %>">
     <% if(item.crit_pics) { %>
-      <div class="crit_pics"><i class="fa fa-star" aria-hidden="true"></i>Our Critic's Prediction</div>
+      <div class="crit_pics">
+        <div class="center"><i class="fas fa-film"></i>Critic's Prediction</div>
+      </div>
     <% } %>
 
     <div class="cardInfo">

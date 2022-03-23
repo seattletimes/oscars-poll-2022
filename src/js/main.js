@@ -7,21 +7,82 @@ var scriptURL = 'https://script.google.com/macros/s/AKfycby8ulrtzEgQRS4iW-ka5E-e
 
 var votes = require("../../data/predictions.sheet.json");
 
+var commafy = s => (s * 1).toLocaleString().replace(/\.0+$/, "");
+
 var width = $(".entry").width();
 var obj = {};
 var catObj = {};
 var savedPicks = [];
 
-var $grid = $('.nom-holder').find(`*[data-head-category="Best Actress"]`).isotope({
- itemSelector: '.entry',
- layoutMode: 'vertical',
- // initLayout: false,
- resizeContainer: true,
- // resize: false,
- getSortData: {
-   trythis: '.perVotes parseInt',
- }
+var bestActor,
+    bestActress,
+    bestPicture,
+    bestDirector,
+    bestSupActor,
+    bestSupActress,
+    bestAnimated,
+    bestCinematography,
+    bestCostume,
+    bestDoc,
+    bestDocShort,
+    bestEditing,
+    bestInternational,
+    bestMakeup,
+    bestScore,
+    bestSong,
+    bestProduction,
+    bestAnimatedShort,
+    bestLiveShort,
+    bestSound,
+    bestVisuals,
+    bestAdaptedScreenplay,
+    bestOriginalScreenplay;
+
+var sortVariables = {
+  bestPicture: bestPicture,
+  bestActor: bestActor,
+  bestActress: bestActress,
+  bestDirector: bestDirector,
+  bestSupActor: bestSupActor,
+  bestSupActress: bestSupActress,
+  bestAnimated: bestAnimated,
+  bestCinematography: bestCinematography,
+  bestCostume: bestCostume,
+  bestDoc: bestDoc,
+  bestDocShort: bestDocShort,
+  bestEditing: bestEditing,
+  bestInternational: bestInternational,
+  bestMakeup: bestMakeup,
+  bestScore: bestScore,
+  bestSong: bestSong,
+  bestProduction: bestProduction,
+  bestAnimatedShort: bestAnimatedShort,
+  bestLiveShort: bestLiveShort,
+  bestSound: bestSound,
+  bestVisuals: bestVisuals,
+  bestAdaptedScreenplay: bestAdaptedScreenplay,
+  bestOriginalScreenplay: bestOriginalScreenplay
+};
+
+$( ".catGroup" ).each(function( index ) {
+  console.log( $(this).attr("id") );
+  var gridID = $(this).attr("id");
+  sortVariables[gridID] = $(this).isotope({
+   itemSelector: '.entry',
+   layoutMode: 'vertical',
+   // initLayout: false,
+   resizeContainer: true,
+   // resize: false,
+   getSortData: {
+     trythis: '.perVotes parseInt',
+   }
+  });
+
 });
+
+
+
+
 
 
 
@@ -109,7 +170,7 @@ function highlightChosenFadeOthers( chosenEntry ){
   $( chosenEntry ).closest('.catGroup').find(".crit_pics").show();
   // $( chosenEntry ).closest('.completeEntry').addClass('voted').find('.img img').css('opacity','1');
   $( chosenEntry ).addClass('voted').find('.knockout').addClass('voted');
-  $( chosenEntry ).addClass('voted').append('<div class="youVote"><i class="fa fa-star" aria-hidden="true"></i>Your Vote</div>');
+  $( chosenEntry ).addClass('voted').append('<div class="youVote"><div class="center"><i class="fa fa-star" aria-hidden="true"></i>Your Vote</div></div>');
 }
 
 // var $grid = $('#card-holder').isotope({
@@ -152,7 +213,11 @@ function showVoteTallies(selectedCategory, chosenMovie) {
 
   }
 
-  $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).prev('.pollHeads').find('.numVotes').append(`${catTotal} votes`);
+  $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).prev('.pollHeads').find('.numVotes').append(`${commafy(catTotal)} votes`);
+
+  var chosenGroupID = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).attr("id");
+  $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).find('.percentSign').addClass('show');
+
 
   for(var propertyName in obj) {
     if( propertyName.includes(selectedCategory) ){
@@ -171,7 +236,11 @@ function showVoteTallies(selectedCategory, chosenMovie) {
     }
   }
 
-  $grid.isotope( 'reloadItems' ).isotope( { sortBy: 'trythis', sortAscending : false } );
+
+
+  $(sortVariables[`${chosenGroupID}`]).isotope( 'reloadItems' ).isotope( { sortBy: 'trythis', sortAscending : false } );
+
+  // $grid.isotope( 'reloadItems' ).isotope( { sortBy: 'trythis', sortAscending : false } );
 
     //  $grid = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).isotope({
     //   itemSelector: '.entry',
