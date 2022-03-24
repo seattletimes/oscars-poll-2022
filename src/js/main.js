@@ -173,30 +173,7 @@ function highlightChosenFadeOthers( chosenEntry ){
   $( chosenEntry ).addClass('voted').append('<div class="youVote"><div class="center"><i class="fa fa-star" aria-hidden="true"></i>Your Vote</div></div>');
 }
 
-// var $grid = $('#card-holder').isotope({
-//   itemSelector: '.card',
-//   layoutMode: 'fitRows',
-//   getSortData: {
-//     name: '.last',
-//     age: '[data-age]',
-//     tenure: '.bar parseInt',
-//     gender: '[data-gender]'
-//   }
-// });
 
-
-
-// $( ".catGroup" ).each(function( index ) {
-//    $grid = $( this ).isotope({
-//     itemSelector: '.entry',
-//     layoutMode: 'vertical',
-//     getSortData: {
-//       trythis: '.perVotes parseInt',
-//     }
-//   });
-//
-//   // console.log( index + ": " + $( this ).text() );
-// });
 
 
 function showVoteTallies(selectedCategory, chosenMovie) {
@@ -216,7 +193,7 @@ function showVoteTallies(selectedCategory, chosenMovie) {
   $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).prev('.pollHeads').find('.numVotes').append(`${commafy(catTotal)} votes`);
 
   var chosenGroupID = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).attr("id");
-  $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).find('.percentSign').addClass('show');
+  // $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).find('.percentSign').addClass('show');
 
 
   for(var propertyName in obj) {
@@ -231,6 +208,7 @@ function showVoteTallies(selectedCategory, chosenMovie) {
       // $('#nom-holder').find(`*[data-id="${ propertyName }"]`).css("background-size",`${percentage}% 100%`);
 
       $('.nom-holder').find(`*[data-id="${ propertyName }"]`).find('.perVotes').empty().append(`${perVotes}`);
+      $('.nom-holder').find(`*[data-id="${ propertyName }"]`).find('.percentSign').addClass('show');
 
       // <span class="percentSign">%</span>
     }
@@ -239,29 +217,6 @@ function showVoteTallies(selectedCategory, chosenMovie) {
 
 
   $(sortVariables[`${chosenGroupID}`]).isotope( 'reloadItems' ).isotope( { sortBy: 'trythis', sortAscending : false } );
-
-  // $grid.isotope( 'reloadItems' ).isotope( { sortBy: 'trythis', sortAscending : false } );
-
-    //  $grid = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).isotope({
-    //   itemSelector: '.entry',
-    //   layoutMode: 'vertical',
-    //   // initLayout: false,
-    //   resizeContainer: true,
-    //   // resize: false,
-    //   getSortData: {
-    //     trythis: '.perVotes parseInt',
-    //   }
-    // });
-
-    // $grid.isotope({ sortBy : 'trythis' });
-
-    // $grid.isotope({ sortBy: 'trythis', sortAscending : false });
-
-  // $grid.isotope({ sortBy: 'trythis', sortAscending : false });
-
-  // setTimeout(() => {  }, 1000);
-
-
 }
 
 // if (getCookie("OscVotesActor")) {
