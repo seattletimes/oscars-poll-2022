@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2022/features/vote-on-your-oscars-predictions"
     }
   },
   "title": "",
@@ -18,5 +18,5 @@
   "sheets": ["1hUO0K8n185BStUr42a8nnS0lBh-Fhwv312VGx0SBq5Y"],
   "docs": [],
   "embedded": true,
-  "production": false
+  "production": true
 }

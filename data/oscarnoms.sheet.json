@@ -567,9 +567,7 @@
   {
     "Category": "Best Visual Effects",
     "Title": "Dune",
-    "Actor": "Cast",
-    "img_id": "",
-    "crit_pics": "x"
+    "Actor": "Cast"
   },
   {
     "Category": "Best Visual Effects",
@@ -589,7 +587,9 @@
   {
     "Category": "Best Visual Effects",
     "Title": "Spider-Man: No Way Home",
-    "Actor": "Cast"
+    "Actor": "Cast",
+    "img_id": "",
+    "crit_pics": "x"
   },
   {
     "Category": "Best Adapted Screenplay",

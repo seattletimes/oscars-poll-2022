@@ -82,6 +82,7 @@
   display: inline-block;
   float: right;
   font-weight: normal;
+  @media @mobileTablet { display: block; float: none; text-align: right; }
 }
 
 .publish-date { padding: 0 5px 0 5px; margin: 10px auto 10px auto; text-align: center; }
@@ -221,20 +222,11 @@
     }
 
 
-    // content: "";
-    // position: absolute;
-    // top: 0;
-    // bottom: 0;
-    // right: 0;
-    // width: 50%;
-    // background: goldenrod;
-    // transform: skew(-30deg);
-    // transform-origin: top;
-    // z-index: -1;
-
-
     @media @mobileTablet {
       font-size: 14px;
+      right: 125px;
+      line-height: 1em;
+      width: 75px;
     }
 
     i { margin-right: 5px; }
@@ -280,19 +272,11 @@
     margin: auto;
   }
 
-  // content: "";
-  // position: absolute;
-  // top: 0;
-  // bottom: 0;
-  // left: 0;
-  // width: 50%;
-  // background: @df-blue;
-  // transform: skew(-30deg);
-  // transform-origin: top;
-  // z-index: -1;
-
   @media @mobileTablet {
     font-size: 14px;
+    right: 65px;
+    width: 60px;
+    line-height: 1em;
   }
 
   i { margin-right: 5px; }
@@ -304,6 +288,10 @@
     right: 8px;
     transform: translateY(-50%);
 
+    @media @mobileTablet {
+      right: 2px;
+    }
+
     .perVotes {
       font-size: 2.5em;
       font-weight: bold;
@@ -314,7 +302,7 @@
       // font-family: 'Bowlby One SC', cursive;
 
       @media @mobileTablet {
-        font-size: 3.5em;
+        font-size: 2em;
       }
      }
 
@@ -322,15 +310,10 @@
        font-size: 0.9em;
        vertical-align: top;
        opacity: 0;
+       // @media @mobile { font-size: 0.6em }
        &.show {
          opacity: 1;
        }
 
      }
-
-
-    // &.voted {
-    //   color: @df-blue;
-    // }
-
   }
