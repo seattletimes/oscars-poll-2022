@@ -132,7 +132,7 @@ function submitHandler(e, entry){
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message));
 
-    // getCookie("OscVotesActor");
+    getCookie("OscVotesActor");
 }
 
 
@@ -190,9 +190,12 @@ function showVoteTallies(selectedCategory, chosenMovie) {
 
   }
 
+  // console.log(selectedCategory);
+
   $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).prev('.pollHeads').find('.numVotes').append(`${commafy(catTotal)} votes`);
 
   var chosenGroupID = $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).attr("id");
+  // console.log(chosenGroupID);
   // $('.nom-holder').find(`*[data-head-category="${ selectedCategory }"]`).find('.percentSign').addClass('show');
 
 
@@ -203,6 +206,10 @@ function showVoteTallies(selectedCategory, chosenMovie) {
 
       var percentage = (value / catTotal) * 100;
       var perVotes = Math.round(percentage);
+
+
+
+      var propertyNameWoSpaces = propertyName.replace(/\s/g, '');
 
       // I work for the bar chart lines.
       // $('#nom-holder').find(`*[data-id="${ propertyName }"]`).css("background-size",`${percentage}% 100%`);
@@ -219,18 +226,18 @@ function showVoteTallies(selectedCategory, chosenMovie) {
   $(sortVariables[`${chosenGroupID}`]).isotope( 'reloadItems' ).isotope( { sortBy: 'trythis', sortAscending : false } );
 }
 
-// if (getCookie("OscVotesActor")) {
-//   var pickedArray = getCookie("OscVotesActor");
-//   savedPicks.push(pickedArray);
-//   var pickedSplitArray = pickedArray.split(",");
-//
-//   $.each(pickedSplitArray, function(index, element) {
-//     var movAndCat = element.split("|");
-//     showVoteTallies(movAndCat[1], movAndCat[0]);
-//     console.log(movAndCat[0]);
-//     highlightChosenFadeOthers( $(`*[data-id="${ movAndCat[0] }"]`)  );
-//   });
-//
-// } else {
-//   console.log("Vote with reckless abandon");
-// }
+if (getCookie("OscVotesActor")) {
+  var pickedArray = getCookie("OscVotesActor");
+  savedPicks.push(pickedArray);
+  var pickedSplitArray = pickedArray.split(",");
+
+  $.each(pickedSplitArray, function(index, element) {
+    var movAndCat = element.split("|");
+    showVoteTallies(movAndCat[1], movAndCat[0]);
+    console.log(movAndCat[0]);
+    highlightChosenFadeOthers( $(`*[data-id="${ movAndCat[0] }"]`)  );
+  });
+
+} else {
+  console.log("Vote with reckless abandon");
+}
